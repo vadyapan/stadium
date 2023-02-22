@@ -4,6 +4,34 @@ body {
   font-weight: 400;
 }
 
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  max-width: 734px;
+  margin: 0 auto 17px;
+  color: #ffffff;
+}
+
+.main-title__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 734px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
 .text-h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -42,22 +70,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header .container {
-  max-width: 1110px;
-  margin: 0 auto;
-}
-.header .container .header__title {
+.header .header__title {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding-top: 20px;
   margin-bottom: 112px;
 }
-.header .container .header__title .logo {
+.header .header__title .logo {
   width: 60px;
   height: 60px;
 }
-.header .container .header__title .burger {
+.header .header__title .burger {
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -69,34 +93,71 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header .container .header__title .burger .burger__line {
+.header .header__title .burger .burger__line {
   display: block;
   width: 21px;
   height: 3px;
   background-color: #fff;
   margin-bottom: 4px;
 }
-.header .container .header__title .burger .burger__line:last-child {
+.header .header__title .burger .burger__line:last-child {
   margin-bottom: 0px;
 }
-.header .container h1 {
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 95px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  max-width: 734px;
-  margin: 0 auto 17px;
-  color: #ffffff;
+
+.about {
+  min-height: 1080px;
+  position: relative;
 }
-.header .container h4 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
+.about .info {
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1110px;
+  min-height: 300px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 57px 130px;
+}
+.about .info .about__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+.about .info .about__grid .about__grid-item {
   text-align: center;
+  width: 190px;
+}
+.about .info .about__grid .about__grid-item .about__h4 {
+  color: #f7654a;
+  font-weight: 500;
+  font-size: 72px;
   text-transform: uppercase;
-  max-width: 734px;
-  margin: 0 auto;
-  color: #ffffff;
+  margin-bottom: 5px;
+}
+.about .info .about__grid .about__grid-item .about__h5 {
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.about .info .about__grid .about__grid-item .about__p {
+  color: #999999;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1280px) {
+  .about .info .about__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .about .info {
+    position: relative;
+  }
+  .about .info .about__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */
