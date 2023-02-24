@@ -270,9 +270,13 @@ img {
   justify-items: center;
   gap: 0;
 }
+.portfolio .portfolio__grid .portfolio__img {
+  width: 480px;
+  height: 407px;
+}
 
 .question {
-  padding: 150px 0 107px;
+  padding: 150px 0 108px;
 }
 .question .section-h2 {
   margin-bottom: 50px;
@@ -292,7 +296,7 @@ img {
 }
 
 .parthers {
-  padding: 100px 0 79px;
+  padding: 102px 0 81px;
   background-color: #404149;
 }
 .parthers .partners__h2 {
@@ -315,11 +319,11 @@ img {
 }
 
 .reviews {
-  padding: 151px 0 144px;
+  padding: 148px 0 144px;
 }
 .reviews .reviews__h2 {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 61px;
 }
 .reviews .reviews__grid {
   display: grid;
@@ -343,7 +347,7 @@ img {
 }
 
 .contacts {
-  padding: 97px 0 150px;
+  padding: 99px 0 150px;
 }
 .contacts .contacts__h2 {
   text-align: center;
@@ -1106,7 +1110,7 @@ textarea.materialize-textarea[readonly=readonly] {
 
 .materialboxed {
   display: block;
-  cursor: zoom-in;
+  cursor: pointer;
   position: relative;
   transition: opacity 0.4s;
   -webkit-backface-visibility: hidden;
@@ -1114,10 +1118,6 @@ textarea.materialize-textarea[readonly=readonly] {
 
 .materialboxed:hover:not(.active) {
   opacity: 0.8;
-}
-
-.materialboxed.active {
-  cursor: zoom-out;
 }
 
 .carousel.scrolling .carousel-item .materialboxed,
