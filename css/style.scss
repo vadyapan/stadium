@@ -284,7 +284,7 @@ img {
 }
 // Question
 .question {
-  padding: 150px 0 110px;
+  padding: 150px 0 107px;
   .section-h2 {
     margin-bottom: 50px;
     text-align: center;
@@ -294,10 +294,12 @@ img {
       .question__h3 {
         text-transform: uppercase;
         color: $accent-color;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
+        margin-left: 5px;
       }
       .question__p {
-        margin-bottom: 37px;
+        margin-top: -13px;
+        margin-bottom: 34px;
         color: $gray-color;
         max-width: 730px;
       }
@@ -329,7 +331,7 @@ img {
 }
 // Reviews
 .reviews {
-  padding: 151px 0 142px;
+  padding: 151px 0 144px;
   .reviews__h2 {
     text-align: center;
     margin-bottom: 60px;
@@ -342,7 +344,7 @@ img {
       .reviews__card {
         background-color: #f7f7f7;
         padding: 0px 30px 34px;
-        margin-bottom: 30px;
+        margin-bottom: 28px;
         .reviews__quotes {
           color: $accent-color;
           font-weight: 700;
@@ -359,10 +361,10 @@ img {
 }
 // Contacts
 .contacts {
-  padding: 100px 0 150px;
+  padding: 97px 0 150px;
   .contacts__h2 {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 58px;
   }
   .contacts__grid {
     display: grid;
@@ -374,7 +376,7 @@ img {
       .contacts__icon {
         width: 50px;
         height: 50px;
-        margin: 0 auto 14px;
+        margin: 0 auto 17px;
       }
       .contacts__h3 {
         text-transform: uppercase;
@@ -385,7 +387,7 @@ img {
       }
       .contacts__h3-gray {
         color: $gray-color;
-        margin-bottom: 17px;
+        margin-bottom: 18px;
       }
       .contacts__h3-accent {
         color: $accent-color;
@@ -401,6 +403,9 @@ img {
   .footer__flex {
     display: flex;
     justify-content: space-between;
+    .footer__brand {
+      font-size: 15.2px;
+    }
   }
 }
 
@@ -461,7 +466,6 @@ img {
   }
 }
 
-// Sidenav
 @media only screen and (max-width: 992px) {
   .sidenav.sidenav-fixed {
     -webkit-transform: translateX(-105%);
@@ -659,7 +663,7 @@ nav,
   height: 100%;
   height: calc(100% + 60px);
   height: -moz-calc(100%);
-  padding-bottom: 60px;
+  padding: 20px 0 60px;
   background-color: #fff;
   z-index: 999;
   overflow-y: auto;
@@ -699,8 +703,9 @@ nav,
   font-weight: 500;
   height: 48px;
   line-height: 48px;
-  padding: 0 32px;
+  padding: 0 80px;
   text-transform: uppercase;
+  text-align: right;
 }
 
 .sidenav li > a:hover {
@@ -743,12 +748,13 @@ nav,
 .sidenav li > a > [class^="mdi-"],
 .sidenav li > a li > a > [class*="mdi-"],
 .sidenav li > a > i.material-icons {
-  float: left;
+  float: right;
   height: 48px;
   line-height: 48px;
   margin: 0 32px 0 0;
   width: 24px;
   color: rgba(0, 0, 0, 0.54);
+  padding-left: 32px;
 }
 
 .divider {

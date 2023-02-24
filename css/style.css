@@ -270,7 +270,7 @@ img {
 }
 
 .question {
-  padding: 150px 0 110px;
+  padding: 150px 0 107px;
 }
 .question .section-h2 {
   margin-bottom: 50px;
@@ -279,10 +279,12 @@ img {
 .question .question_items .question_item .question__h3 {
   text-transform: uppercase;
   color: #f7654a;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  margin-left: 5px;
 }
 .question .question_items .question_item .question__p {
-  margin-bottom: 37px;
+  margin-top: -13px;
+  margin-bottom: 34px;
   color: #999999;
   max-width: 730px;
 }
@@ -311,7 +313,7 @@ img {
 }
 
 .reviews {
-  padding: 151px 0 142px;
+  padding: 151px 0 144px;
 }
 .reviews .reviews__h2 {
   text-align: center;
@@ -325,7 +327,7 @@ img {
 .reviews .reviews__grid .reviews__grid-item .reviews__card {
   background-color: #f7f7f7;
   padding: 0px 30px 34px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 .reviews .reviews__grid .reviews__grid-item .reviews__card .reviews__quotes {
   color: #f7654a;
@@ -339,11 +341,11 @@ img {
 }
 
 .contacts {
-  padding: 100px 0 150px;
+  padding: 97px 0 150px;
 }
 .contacts .contacts__h2 {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 58px;
 }
 .contacts .contacts__grid {
   display: grid;
@@ -357,7 +359,7 @@ img {
 .contacts .contacts__grid .contacts__grid-item .contacts__icon {
   width: 50px;
   height: 50px;
-  margin: 0 auto 14px;
+  margin: 0 auto 17px;
 }
 .contacts .contacts__grid .contacts__grid-item .contacts__h3 {
   text-transform: uppercase;
@@ -368,7 +370,7 @@ img {
 }
 .contacts .contacts__grid .contacts__grid-item .contacts__h3-gray {
   color: #999999;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 }
 .contacts .contacts__grid .contacts__grid-item .contacts__h3-accent {
   color: #f7654a;
@@ -382,6 +384,9 @@ img {
 .footer .footer__flex {
   display: flex;
   justify-content: space-between;
+}
+.footer .footer__flex .footer__brand {
+  font-size: 15.2px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -628,7 +633,7 @@ nav,
   height: 100%;
   height: calc(100% + 60px);
   height: -moz-calc(100%);
-  padding-bottom: 60px;
+  padding: 20px 0 60px;
   background-color: #fff;
   z-index: 999;
   overflow-y: auto;
@@ -665,8 +670,9 @@ nav,
   font-weight: 500;
   height: 48px;
   line-height: 48px;
-  padding: 0 32px;
+  padding: 0 80px;
   text-transform: uppercase;
+  text-align: right;
 }
 
 .sidenav li > a:hover {
@@ -709,12 +715,13 @@ nav,
 .sidenav li > a > [class^=mdi-],
 .sidenav li > a li > a > [class*=mdi-],
 .sidenav li > a > i.material-icons {
-  float: left;
+  float: right;
   height: 48px;
   line-height: 48px;
   margin: 0 32px 0 0;
   width: 24px;
   color: rgba(0, 0, 0, 0.54);
+  padding-left: 32px;
 }
 
 .divider {
