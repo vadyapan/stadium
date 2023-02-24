@@ -523,12 +523,21 @@ img {
   .footer .footer__flex {
     flex-direction: column;
   }
+  ul.sidenav {
+    width: 270px;
+  }
 }
 
 @media screen and (max-width: 380px) {
   .main-title {
     font-size: 46px;
     line-height: 64px;
+  }
+  .about__flex {
+    padding: 0 15px;
+  }
+  ul.sidenav {
+    width: 230px;
   }
 }
 
