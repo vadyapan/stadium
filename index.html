@@ -125,6 +125,25 @@
         </div>
       </div>
     </section>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4 class="modal__h4">Заполните запрос</h4>
+        <div class="input-field">
+          <input id="email" type="email" class="validate" />
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input id="email" type="email" />
+          <label for="text">Текст запроса</label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Отправить</a
+        >
+      </div>
+    </div>
     <section class="request">
       <div class="container">
         <div class="request__flex">
@@ -135,14 +154,14 @@
             </h5>
           </div>
           <div class="request__flex-btn">
-            <button class="request__btn">
+            <a class="request__btn modal-trigger" href="#modal1">
               <img
                 class="request__icon"
                 src="./img/message-icon.svg"
                 alt="Message Icon"
               />
               Ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -206,56 +225,64 @@
       <div class="portfolio__grid">
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
+            width="480"
             src="./img/portfolio-item.jpg"
             alt="Portolio Item"
           />
@@ -402,14 +429,14 @@
             <h5 class="request__h5">Оставьте заявку и мы свяжемся c вами!</h5>
           </div>
           <div class="request__flex-btn">
-            <button class="request__btn">
+            <a class="request__btn modal-trigger" href="#modal1">
               <img
                 class="request__icon"
                 src="./img/message-icon.svg"
                 alt="Message Icon"
               />
               Ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>
