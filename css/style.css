@@ -270,10 +270,6 @@ img {
   justify-items: center;
   gap: 0;
 }
-.portfolio .portfolio__grid .portfolio__img {
-  width: 480px;
-  height: 407px;
-}
 
 .question {
   padding: 150px 0 108px;
@@ -683,9 +679,9 @@ nav,
   font-weight: 500;
   height: 48px;
   line-height: 48px;
-  padding: 0 32px;
+  padding: 0 60px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
 }
 
 .sidenav li > a:hover {
@@ -731,7 +727,7 @@ nav,
   float: right;
   height: 48px;
   line-height: 48px;
-  margin: 0 32px 0 0;
+  margin: 0 32px;
   width: 24px;
   color: rgba(0, 0, 0, 0.54);
 }
@@ -1106,21 +1102,4 @@ textarea.materialize-textarea:disabled,
 textarea.materialize-textarea[readonly=readonly] {
   color: rgba(0, 0, 0, 0.42);
   border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
-}
-
-.materialboxed {
-  display: block;
-  cursor: pointer;
-  position: relative;
-  transition: opacity 0.4s;
-  -webkit-backface-visibility: hidden;
-}
-
-.materialboxed:hover:not(.active) {
-  opacity: 0.8;
-}
-
-.carousel.scrolling .carousel-item .materialboxed,
-.carousel .carousel-item:not(.active) .materialboxed {
-  pointer-events: none;
 }/*# sourceMappingURL=style.css.map */
