@@ -504,6 +504,9 @@ img {
   ul.sidenav {
     width: 270px;
   }
+  .sidenav li > a {
+    padding: 0 32px !important;
+  }
 }
 @media screen and (max-width: 380px) {
   .main-title {

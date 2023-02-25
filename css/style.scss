@@ -528,7 +528,8 @@ img {
   ul.sidenav {
     width: 270px;
   }
-  img.materialboxed {
+  .sidenav li > a {
+    padding: 0 32px !important;
   }
 }
 
