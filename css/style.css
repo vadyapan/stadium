@@ -394,6 +394,7 @@ img {
 @media screen and (max-width: 1280px) {
   .header {
     padding: 0 15px;
+    background-position: center center;
   }
   .about {
     padding: 450px 15px 110px;
