@@ -4,4 +4,4 @@
 
 Ссылка на сайт: https://vadyapan.github.io/stadium/
 
-![Design](https://github.com/vadyapan/landing_stadium/blob/main/design/layout.png)
+![Design](https://github.com/vladpantyhin/landing_stadium/blob/main/design/layout.png)
